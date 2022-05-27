@@ -1,16 +1,3 @@
-## **Visão Geral**
-
-O **dotnet-queue-app-plugin** adiciona em uma stack a capacidade de provisionar o uso da Amazon Simple Queue Service (SQS) seja consumindo ou produzindo mensagens na fila.
-
-## **Uso**
-
-#### **Pré-requisitos**
-Para utilizar esse plugin é necessário ter uma stack dotnet criada pelo `CLI` do `StackSpot` que você pode baixar [**aqui**](https://stackspot.com/).
-
-Ter instalado:
-- .NET 5 ou 6 
-- O template `dotnet-api-template` ou o `dotnet-worker-template` deverá estar aplicado para você conseguir utilizar este plugin.
-
 #### **Inputs**
 
 Os inputs necessários para a utilização do plugin são:
@@ -150,6 +137,3 @@ Após a criação do contâiner, crie uma fila para realizar os testes com o com
 ```bash
     aws --endpoint-url=http://localhost:4566 --region=sa-east-1 sqs create-queue --queue-name [NOME DA SUA FILA]
 ```
-
-### **Implementação**
-- [**Nuget**](https://www.nuget.org/packages/StackSpot.Queue.SQS/)
