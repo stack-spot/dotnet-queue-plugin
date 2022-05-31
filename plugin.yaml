@@ -1,4 +1,4 @@
-name: dotnet-queue-app-plugin
+name: dotnet-queue-plugin
 description: Plug-in para instrumentar o AWS SQS.
 types:
 - app
@@ -56,7 +56,7 @@ about: docs/about.md
 
 usage: docs/usage.md
 
-useCase: docs/useCase.md
+useCase: docs/use-case.md
 
 implementation: docs/implementation.md
 
